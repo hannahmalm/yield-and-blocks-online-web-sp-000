@@ -2,7 +2,7 @@ def hello_t(array)
   i = 0 
   
   #using a while loop to create iteration
-  while i < array.length 
+  while i < Array.length 
   #Use [] method to grab the value of each successive index element as you proceed through while loop
     yield Arrary[i]
     i = i + 1 
