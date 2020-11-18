@@ -4,7 +4,7 @@ def hello_t(array)
   #using a while loop to create iteration
   while i < array.length 
   #Use [] method to grab the value of each successive index element as you proceed through while loop
-    yield arrary[i]
+    yield Arrary[i]
     i = i + 1 
   end  
 end
